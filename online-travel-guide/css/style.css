@@ -1,0 +1,70 @@
+/* reset.css */
+@import url(../css/reset.css);
+
+/* fonts.css */
+@import url(../css/fonts.css);
+
+/* header.css */
+@import url(../css/header.css);
+
+/* intro.css */
+@import url(../css/intro.css);
+
+/* grodno.css */
+@import url(../css/grodno.css);
+
+/* brest.css */
+@import url(../css/brest.css);
+
+/* gomel.css */
+@import url(../css/gomel.css);
+
+/* mogilev.css */
+@import url(../css/mogilev.css);
+
+/* vitebsk.css */
+@import url(../css/vitebsk.css);
+
+/* minck.css */
+@import url(../css/minck.css);
+
+/* footer.css */
+@import url(../css/footer.css);
+
+/* up-button.css */
+@import url(../css/up-button.css);
+
+/* animate.css */
+@import url(../css/animate.css);
+
+/* media.css */
+@import url(../css/media.css);
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+}

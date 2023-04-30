@@ -1,0 +1,97 @@
+/* mogilev */
+.mogilev {
+  width: 100%;
+  margin: 130px 0 0 0;
+}
+
+.mogilev__inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mogilev__title {
+  margin: 0 0 50px 0;
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #1c1002;
+  text-align: center;
+}
+
+.mogilev__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.mogilev__row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.mogilev__row:not(:last-child) {
+  margin: 0 0 100px 0;
+}
+
+.mogilev__info {
+  margin: 0 30px 0 0;
+  padding: 40px 50px;
+  background: linear-gradient(93.95deg, #0000ff 4.49%, #0000cd 96.04%);
+  border-radius: 35px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mogilev__info::after {
+  content: "";
+  position: absolute;
+  right: 26%;
+  transform: translateY(-150%);
+  border: 65px solid transparent;
+  border-left: 55px solid #0000cd;
+  z-index: 2;
+}
+
+.mogilev__info-title {
+  margin: 0 0 5px 0;
+  font-family: "Montserrat";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.mogilev__info-subtitle {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.mogilev__info-subtitle:not(:first-child) {
+  margin: 10px 0 0 0;
+}
+
+.mogilev__info-subtitle-text {
+  margin: 5px 0 0 0;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.mogilev__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.333%;
+  min-height: 150px;
+}
+
+.mogilev__item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;
+  object-fit: cover;
+}
+/* /mogilev */

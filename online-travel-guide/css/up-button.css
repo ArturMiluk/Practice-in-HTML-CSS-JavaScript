@@ -1,0 +1,46 @@
+/* up-button */
+.up-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  z-index: 9999;
+  border-radius: 500px;
+  transform: scale(0);
+  transition: all 0.7s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+.up-button::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  z-index: -1;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.up-button:hover {
+  transform: scale(1.2) !important;
+}
+
+.up-button__size {
+  background: linear-gradient(93.95deg, #0000ff 4.49%, #0000cd 96.04%);
+}
+
+.up-button__inside {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+/* /up-button */
