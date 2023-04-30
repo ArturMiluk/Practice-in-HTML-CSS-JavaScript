@@ -1,0 +1,40 @@
+/* benefits.css */
+
+/* benefits */
+.benefits {
+  width: 100%;
+  margin: 130px 0 0 0;
+}
+
+.benefits__inner {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.benefits__title {
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #1c1002;
+}
+
+.benefits__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 60px 0 0 0;
+}
+
+.benefits__item {
+  text-align: center;
+}
+
+.benefits__item-title {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #1c1002;
+}
+/* / benefits */

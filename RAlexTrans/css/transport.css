@@ -1,0 +1,54 @@
+/* transport.css */
+
+/* transport */
+.transport {
+  width: 100%;
+  margin: 70px 0 0 0;
+}
+
+.transport__inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.transport__title {
+  margin: 0 0 0 600px;
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #1c1002;
+}
+
+.transport__content {
+  position: relative;
+  display: flex;
+  margin: 60px 0 0 0;
+}
+
+.transport__content-icon {
+  max-width: 100%;
+}
+
+.transport__content-text {
+  position: relative;
+  margin: 0 0 0 30px;
+  padding: 40px 50px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(93.95deg, #ff9f2e 4.49%, #f48400 96.04%);
+  border-radius: 34.5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.transport__content-text::after {
+  content: "";
+  position: absolute;
+  left: -115px;
+  bottom: 155px;
+  border: 65px solid transparent;
+  border-right: 55px solid #ff9f2e;
+}
+/* / transport */

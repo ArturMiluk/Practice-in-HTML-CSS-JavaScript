@@ -1,0 +1,130 @@
+/* magnific-popup.css */
+@import url(../css/magnific-popup.css);
+
+/* call-order */
+.mfp-close {
+  top: 15px !important;
+  right: 15px !important;
+  font-size: 64px !important;
+}
+
+.call-order__form {
+  position: relative;
+  max-width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 80px 40px 30px 40px;
+  background: linear-gradient(
+    213.56deg,
+    rgba(176, 176, 176, 0.88) 3.11%,
+    rgba(106, 106, 106, 0.88) 95.43%
+  );
+  border-radius: 34.5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form__input {
+  width: 100%;
+  padding: 23px 0 24px 40px;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 34.5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form__input:not(:first-child) {
+  margin: 15px 0 0 0;
+}
+.form__input::placeholder {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #1c1002;
+}
+
+.form__btn-call-order {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  vertical-align: top;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0 0 0;
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  background: linear-gradient(93.95deg, #ff9f2e 4.49%, #f48400 96.04%);
+  border: none;
+  border-radius: 34.5px;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+}
+.form__btn-call-order::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #ffffff;
+  border-radius: 1000px;
+  box-shadow: 0px 4px 35px 7px rgba(246, 137, 8, 0.54);
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out 0s;
+  opacity: 0;
+}
+.form__btn-call-order:hover,
+.form__btn-call-order:focus {
+  transform: translateY(-6px);
+}
+.form__btn-call-order:hover::before,
+.form__btn-call-order:focus::before {
+  opacity: 1;
+}
+.form__btn-call-order::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  z-index: -1;
+  border-radius: 100%;
+  border: 6px solid #f48400;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+.form__btn-call-order:hover::after,
+.form__btn-call-order:focus::after {
+  display: none;
+  animation: none;
+  background-color: #ffffff;
+}
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+.form__privacy-policy {
+  margin: 25px 0 0 0;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+/* / call-order */

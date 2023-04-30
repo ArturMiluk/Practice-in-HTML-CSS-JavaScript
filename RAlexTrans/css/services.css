@@ -1,0 +1,52 @@
+/* services.css */
+
+/* services */
+.services {
+  width: 100%;
+  margin: 130px 0 0 0;
+}
+
+.services__ineer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.services__title {
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #1c1002;
+}
+
+.services__content {
+  position: relative;
+  display: flex;
+  margin: 60px 0 0 0;
+}
+
+.services__content-text {
+  margin: 0 30px 0 0;
+  padding: 60px 50px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(93.95deg, #ff9f2e 4.49%, #f48400 96.04%);
+  border-radius: 34.5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.services__content-text::after {
+  content: "";
+  position: absolute;
+  bottom: 95px;
+  right: 485px;
+  border: 65px solid transparent;
+  border-left: 55px solid #f48400;
+}
+
+.services__content-icon {
+  max-width: 100%;
+}
+/* / services */

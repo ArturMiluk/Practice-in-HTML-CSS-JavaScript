@@ -1,0 +1,96 @@
+/* reviews.css */
+
+/* reviews */
+.reviews {
+  width: 100%;
+  margin: 130px 0 0 0;
+}
+
+.reviews__inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.reviews__title {
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #1c1002;
+}
+
+.reviews__subtitle {
+  margin: 40px 0 0 0;
+  font-family: "Montserrat";
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #1c1002;
+}
+.reviews__subtitle span {
+  color: #ff9e2c;
+}
+
+.reviews__slider-container {
+  margin: 50px 0 0 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.reviews__slider-track {
+  display: flex;
+  width: 100%;
+  transition: 0.2s linear;
+}
+
+.reviews__slider-item {
+  margin: 0 15px 0 0;
+  padding: 40px 50px 50px 50px;
+  background: linear-gradient(93.95deg, #ff9f2e 4.49%, #f48400 96.04%);
+  border-radius: 34.5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.reviews__slider-item-text {
+  font-family: "Montserrat";
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.reviews__slider-item-title {
+  margin: 20px 0 0 0;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.reviews__slider-item-subtitle {
+  margin: 5px 0 0 0;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.reviews__slider-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+.btn-prev {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.btn-next {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+/* / reviews */

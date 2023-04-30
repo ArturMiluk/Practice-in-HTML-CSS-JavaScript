@@ -1,0 +1,597 @@
+/* media.css */
+
+/* media */
+@media screen and (max-width: 1200px) {
+  .benefits__items {
+    justify-content: center;
+  }
+  .transport__title {
+    margin: 0;
+    text-align: center;
+  }
+  .transport__content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .transport__content-icon {
+    order: 2;
+  }
+  .transport__content-text {
+    position: relative;
+    margin: 0 0 30px 0;
+    order: 1;
+  }
+  .transport__content-text::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -120px;
+    border: 65px solid transparent;
+    border-top: 55px solid #ff9f2e;
+  }
+
+  .services__title {
+    text-align: center;
+  }
+  .services__content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .services__content-icon {
+    order: 2;
+  }
+  .services__content-text {
+    position: relative;
+    margin: 0 0 30px 0;
+    order: 1;
+  }
+  .services__content-text::after {
+    content: "";
+    position: absolute;
+    bottom: -120px;
+    right: 50%;
+    border: 65px solid transparent;
+    border-top: 55px solid #ff9f2e;
+  }
+
+  .directions__title {
+    margin: 0;
+    text-align: center;
+  }
+  .directions__content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .directions__content-icon {
+    order: 2;
+  }
+  .directions__info {
+    position: relative;
+    margin: 0 0 30px 0;
+    order: 1;
+  }
+  .directions__info::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -120px;
+    border: 65px solid transparent;
+    border-top: 55px solid #ff9f2e;
+  }
+
+  .about__title {
+    text-align: center;
+  }
+  .about__subtitle {
+    text-align: center;
+  }
+
+  .reviews__title {
+    text-align: center;
+  }
+  .reviews__subtitle {
+    text-align: center;
+  }
+
+  .contacts__inner {
+    justify-content: center;
+  }
+  .contacts__title {
+    text-align: center;
+  }
+  .contacts__inner iframe {
+    margin: 30px 0 0 0;
+    order: 2;
+  }
+  .contacts__info {
+    order: 1;
+  }
+
+  .footer__inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  body.lock {
+    overflow: hidden;
+  }
+
+  .header__burger {
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+    display: block;
+    order: 2;
+  }
+  .header__burger span {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transition: all 0.2s ease 0s;
+  }
+  .header__burger::before,
+  .header__burger::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transition: all 0.2s ease 0s;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .header__burger.active span {
+    transform: scale(0);
+  }
+  .header__burger.active::before {
+    top: 9px;
+    transform: rotate(45deg);
+  }
+  .header__burger.active::after {
+    bottom: 9px;
+    transform: rotate(-45deg);
+  }
+
+  .nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    background: rgba(16, 16, 16, 1);
+    transition: all 0.2s ease 0s;
+  }
+  .nav.active {
+    top: 0;
+  }
+  .nav__list {
+    display: block;
+  }
+  .nav__item {
+    text-align: center;
+  }
+  .nav__item:not(:first-child) {
+    margin: 20px 0 0 0;
+  }
+  .nav__link {
+    width: 100%;
+    font-size: 32px;
+  }
+
+  .header__telephone {
+    justify-content: center;
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav__item:not(:first-child) {
+    margin: 13px 0 0 0;
+  }
+  .header__telephone-number {
+    font-size: 17px;
+  }
+
+  .intro {
+    padding: 121px 0 160px 0;
+  }
+  .intro__title {
+    margin: 100px 0 0 0;
+    font-size: 37px;
+  }
+  .intro__subtitle {
+    margin: 27px 0 0 0;
+    font-size: 20px;
+  }
+  .intro__btn {
+    margin: 27px 0 0 0;
+    font-size: 17px;
+  }
+
+  .benefits {
+    margin: 65px 0 0 0;
+  }
+  .benefits__title {
+    font-size: 30px;
+  }
+  .benefits__items {
+    margin: 0;
+  }
+  .benefits__item-title {
+    font-size: 13px;
+  }
+
+  .transport {
+    margin: 65px 0 0 0;
+  }
+  .transport__title {
+    font-size: 30px;
+  }
+  .transport__content {
+    margin: 30px 0 0 0;
+  }
+  .transport__content-text {
+    margin: 0 0 20px 0;
+    padding: 27px 33px;
+    font-size: 13px;
+  }
+  .transport__content-text::after {
+    bottom: -80px;
+    border: 43px solid transparent;
+    border-top: 37px solid #ff9f2e;
+  }
+
+  .services {
+    margin: 65px 0 0 0;
+  }
+  .services__title {
+    font-size: 30px;
+  }
+  .services__content {
+    flex-wrap: wrap;
+    margin: 30px 0 0 0;
+  }
+  .services__content-text {
+    margin: 0 0 20px 0;
+    padding: 40px 33px;
+    font-size: 13px;
+  }
+  .services__content-text::after {
+    bottom: -80px;
+    border: 43px solid transparent;
+    border-top: 37px solid #ff9f2e;
+  }
+
+  .directions {
+    margin: 65px 0 0 0;
+  }
+  .directions__title {
+    font-size: 30px;
+  }
+  .directions__content {
+    margin: 30px 0 0 0;
+  }
+  .directions__info {
+    margin: 0 0 20px 0;
+    padding: 27px 33px;
+  }
+  .directions__info-title {
+    font-size: 17px;
+  }
+  .directions__info-subtitle {
+    margin: 10px 0 0 0;
+    font-size: 13px;
+  }
+  .directions__info-text {
+    margin: 3px 0 0 0;
+    font-size: 13px;
+  }
+  .directions__info::after {
+    bottom: -80px;
+    border: 43px solid transparent;
+    border-top: 37px solid #ff9f2e;
+  }
+
+  .about {
+    margin: 65px 0 0 0;
+  }
+  .about__inner {
+    padding: 65px 0;
+  }
+  .about__title {
+    font-size: 30px;
+  }
+  .about__subtitle {
+    margin: 27px 0 0 0;
+    font-size: 20px;
+  }
+  .about__content {
+    margin: 30px 0 0 0;
+  }
+  .about__content-title {
+    font-size: 27px;
+  }
+  .cargos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0;
+  }
+  .cargo__item-title {
+    font-size: 13px;
+  }
+
+  .reviews {
+    margin: 65px 0 0 0;
+  }
+  .reviews__title {
+    font-size: 30px;
+  }
+  .reviews__subtitle {
+    margin: 27px 0 0 0;
+    font-size: 20px;
+  }
+  .reviews__slider-container {
+    margin: 30px 0 0 0;
+  }
+  .reviews__slider-item {
+    padding: 27px 33px 33px 33px;
+  }
+  .reviews__slider-item-text {
+    font-size: 15px;
+  }
+  .reviews__slider-item-title {
+    font-size: 13px;
+  }
+  .reviews__slider-item-subtitle {
+    font-size: 13px;
+  }
+
+  .connection {
+    margin: 65px 0 0 0;
+  }
+  .connection__inner {
+    padding: 65px 100px;
+  }
+  .connection__title {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .connection__form {
+    margin: 40px 0 0 0;
+    padding: 47px 40px;
+  }
+  .connection__form-input {
+    padding: 15px 0 15px 27px;
+  }
+  .connection__form-input:not(:first-child) {
+    margin: 10px 0 0 0;
+  }
+  .connection__form-input::placeholder {
+    font-size: 13px;
+  }
+  .form__btn-call-order {
+    margin: 27px 0 0 0;
+    padding: 13px 30px;
+    font-size: 17px;
+  }
+  .connection__form-privacy-policy {
+    margin: 17px 0 0 0;
+    font-size: 13px;
+  }
+
+  .contacts {
+    margin: 65px 0 0 0;
+  }
+  .contacts__title {
+    font-size: 30px;
+  }
+  .contacts__telephone {
+    margin: 17px 0 0 0;
+  }
+  .contacts__telephone-text {
+    margin: 0 0 0 7px;
+    font-size: 17px;
+  }
+  .contacts__letter-text {
+    margin: 0 0 0 7px;
+    font-size: 17px;
+  }
+  .contacts__geolocation-text {
+    margin: 0 0 0 7px;
+    font-size: 17px;
+  }
+  .contacts__time-text {
+    margin: 0 0 0 7px;
+    font-size: 17px;
+  }
+
+  .footer {
+    margin: 65px 0 0 0;
+  }
+  .footer__text {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .cargos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0;
+  }
+
+  .connection__inner {
+    padding: 32px 50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .reviews__slider-item {
+    padding: 18px 22px 22px 22px;
+  }
+
+  .connection__inner {
+    padding: 16px 25px;
+  }
+  .connection__title {
+    line-height: 1;
+  }
+  .connection__form {
+    padding: 24px 20px;
+  }
+  .connection__form-input {
+    padding: 10px 0 10px 13px;
+  }
+  .connection__form-btn-call-order {
+    margin: 17px 0 0 0;
+    padding: 9px 13px;
+  }
+  .connection__form-privacy-policy {
+    margin: 17px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__logo img {
+    display: none;
+  }
+  .header__logo-title {
+    margin: 0;
+  }
+  .header__telephone img {
+    display: none;
+  }
+  .header__telephone-number {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .intro {
+    padding: 60px 0 80px 0;
+  }
+
+  .benefits {
+    margin: 32px 0 0 0;
+  }
+
+  .transport {
+    margin: 32px 0 0 0;
+  }
+  .transport__content {
+    margin: 15px 0 0 0;
+  }
+  .transport__content-text {
+    margin: 0 0 18px 0;
+  }
+
+  .services {
+    margin: 32px 0 0 0;
+  }
+  .services__content {
+    margin: 15px 0 0 0;
+  }
+  .services__content-text {
+    margin: 0 0 18px 0;
+  }
+
+  .directions {
+    margin: 32px 0 0 0;
+  }
+  .directions__content {
+    margin: 15px 0 0 0;
+  }
+  .directions__info {
+    margin: 0 0 18px 0;
+  }
+
+  .about {
+    margin: 32px 0 0 0;
+  }
+  .about__inner {
+    padding: 32px 0;
+  }
+  .cargos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0;
+  }
+
+  .reviews {
+    margin: 32px 0 0 0;
+  }
+  .reviews__subtitle {
+    margin: 18px 0 0 0;
+  }
+  .reviews__slider-container {
+    margin: 20px 0 0 0;
+  }
+  .reviews__slider-buttons {
+    margin: 15px 0 0 0;
+  }
+
+  .connection {
+    margin: 32px 0 0 0;
+  }
+  .connection__form {
+    margin: 27px 0 0 0;
+  }
+  .connection__form-input {
+    padding: 7px 0 7px 9px;
+  }
+  .connection__form-input:not(:first-child) {
+    margin: 7px 0 0 0;
+  }
+  .connection__form-btn-call-order {
+    width: 75%;
+    height: 50px;
+    padding: 0;
+    font-size: 17px;
+  }
+
+  .contacts {
+    margin: 32px 0 0 0;
+  }
+
+  .footer {
+    margin: 32px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .benefits__item-icon {
+    width: 117px;
+    height: 117px;
+  }
+
+  .cargo__item-icon {
+    width: 117px;
+    height: 117px;
+  }
+
+  .footer__link img {
+    width: 104px;
+    height: 104px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    display: none;
+  }
+}
+/* / media */

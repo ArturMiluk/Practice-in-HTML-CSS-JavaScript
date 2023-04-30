@@ -1,0 +1,77 @@
+/* reset.css */
+@import url(../css/reset.css);
+
+/* fonts.css */
+@import url(../css/fonts.css);
+
+/* header.css */
+@import url(../css/header.css);
+
+/* intro.css */
+@import url(../css/intro.css);
+
+/* benefits.css */
+@import url(../css/benefits.css);
+
+/* transport.css */
+@import url(../css/transport.css);
+
+/* services.css */
+@import url(../css/services.css);
+
+/* directions.css */
+@import url(../css/directions.css);
+
+/* about.css */
+@import url(../css/about.css);
+
+/* reviews.css */
+@import url(../css/reviews.css);
+
+/* connection.css */
+@import url(../css/connection.css);
+
+/* contacts.css */
+@import url(../css/contacts.css);
+
+/* footer.css */
+@import url(../css/footer.css);
+
+/* media.css */
+@import url(../css/media.css);
+
+/* up-button.css */
+@import url(../css/up-button.css);
+
+/* call-order-form.css */
+@import url(../css/call-order-form.css);
+
+/* style.css */
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+}

@@ -1,0 +1,107 @@
+/* connection.css */
+
+/* connection */
+.connection {
+  position: relative;
+  width: 100%;
+  margin: 130px 0 0 0;
+  background: rgba(16, 16, 16, 0.4)
+    url("../images/main/connection/connection-bg.svg") no-repeat center center /
+    cover;
+}
+.connection::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba(16, 16, 16, 0.4);
+}
+
+.connection__inner {
+  position: relative;
+  width: 100%;
+  z-index: 3;
+  margin: 0 auto;
+  padding: 130px 200px;
+  text-align: center;
+}
+
+.connection__title {
+  font-size: 45px;
+  line-height: 1.2;
+  line-height: 53px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.connection__title span {
+  color: #ff9e2c;
+}
+
+.connection__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0 0 0;
+  padding: 70px 60px;
+  background: linear-gradient(
+    213.56deg,
+    rgba(176, 176, 176, 0.88) 3.11%,
+    rgba(106, 106, 106, 0.88) 95.43%
+  );
+  border-radius: 34.5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.connection__form-input {
+  width: 100%;
+  padding: 23px 0 22px 40px;
+  background: #ffffff;
+  border: 0;
+  border-radius: 34.5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.connection__form-input:not(:first-child) {
+  margin: 15px 0 0 0;
+}
+.connection__form-input::placeholder {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  color: #1c1002;
+}
+
+.connection__form-btn-call-order {
+  width: 300px;
+  height: 60px;
+  vertical-align: top;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0 0 0;
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  background: linear-gradient(93.95deg, #ff9f2e 4.49%, #f48400 96.04%);
+  border: none;
+  border-radius: 34.5px;
+  transition: box-shadow 0.2s linear;
+}
+.connection__form-btn-call-order:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.connection__form-privacy-policy {
+  margin: 25px 0 0 0;
+  font-family: "Montserrat";
+  line-height: 1.2;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+/* / connection */
