@@ -1,0 +1,34 @@
+/* student */
+.student {
+  width: 100%;
+  margin: 50px 0 0 0;
+}
+
+.student__inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.student__title {
+  font-size: 42px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+}
+
+.student__content {
+  margin: 30px 0 0 0;
+  padding: 30px;
+  box-shadow: 0 0 30px #cccccc;
+}
+
+.student__content-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000000;
+}
+/* /student */

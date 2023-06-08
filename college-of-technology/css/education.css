@@ -1,0 +1,54 @@
+/* education */
+.education {
+  width: 100%;
+  margin: 50px 0 0 0;
+}
+
+.education__inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.education__title {
+  font-size: 42px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+}
+
+.education__content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 0;
+  padding: 30px;
+  box-shadow: 0 0 30px #cccccc;
+}
+
+.education__text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.education__list {
+  margin: 10px 0 0 0;
+}
+
+.education__list-item {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+.education__list-item:not(:first-child) {
+  margin: 5px 0 0 0;
+}
+.education__list-item:nth-child(2) {
+  font-weight: 600;
+}
+.education__list-item:nth-child(7) {
+  font-weight: 600;
+}
+/* /education */

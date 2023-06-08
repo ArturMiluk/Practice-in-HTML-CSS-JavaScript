@@ -1,0 +1,121 @@
+/* enrollee */
+.enrollee {
+  width: 100%;
+  margin: 50px 0 0 0;
+}
+
+.enrollee__inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.enrollee__title {
+  font-size: 42px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+}
+
+.enrollee__content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 0;
+  padding: 30px;
+  box-shadow: 0 0 30px #cccccc;
+}
+
+.enrollee__info-link {
+  position: relative;
+  padding: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+}
+.enrollee__info-link:hover {
+  opacity: 0.7;
+}
+.enrollee__info-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(93.95deg, #0077ff 4.49%, #00cd9a 96.04%);
+}
+
+.enrollee__info-icon {
+  width: 16px;
+  height: 16px;
+  margin: 0 0 0 5px;
+}
+
+.enrollee__more {
+  margin: 30px 0 0 0;
+}
+
+.enrolle__more-link {
+  position: relative;
+  padding: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+}
+.enrolle__more-link:hover {
+  opacity: 0.7;
+}
+.enrolle__more-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(93.95deg, #0077ff 4.49%, #00cd9a 96.04%);
+}
+
+.enrollee__more-icon {
+  width: 16px;
+  height: 16px;
+  margin: 0 0 0 5px;
+}
+
+.enrollee__document {
+  margin: 30px 0 0 0;
+}
+
+.enrollee__document-link {
+  position: relative;
+  padding: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+}
+.enrollee__document-link:hover {
+  opacity: 0.7;
+}
+.enrollee__document-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(93.95deg, #0077ff 4.49%, #00cd9a 96.04%);
+}
+
+.enrollee__document-icon {
+  width: 16px;
+  height: 16px;
+  margin: 0 0 0 5px;
+}
+/* /enrollee */

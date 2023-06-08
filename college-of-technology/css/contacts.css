@@ -1,0 +1,55 @@
+/* contacts */
+.contacts {
+  width: 100%;
+  margin: 50px 0 0 0;
+}
+
+.contacts__inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.contacts__title {
+  font-size: 42px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+}
+
+.contacts__content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 0;
+  padding: 30px;
+  box-shadow: 0 0 30px #cccccc;
+}
+
+.contacts__list {
+  position: relative;
+  padding: 0 0 10px 0;
+}
+.contacts__list::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(93.95deg, #0077ff 4.49%, #00cd9a 96.04%);
+}
+.contacts__item:not(:first-child) {
+  margin: 5px 0 0 0;
+}
+
+.contacts__item {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+.contacts__item span {
+  font-weight: 600;
+}
+/* /contacts */

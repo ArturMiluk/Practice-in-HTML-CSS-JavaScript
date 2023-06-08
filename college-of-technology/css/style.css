@@ -1,0 +1,61 @@
+/* reset.css */
+@import url(../css/reset.css);
+
+/* fonts.css */
+@import url(../css/fonts.css);
+
+/* header.css */
+@import url(../css/header.css);
+
+/* intro.css */
+@import url(../css/intro.css);
+
+/* student.css */
+@import url(../css/student.css);
+
+/* enrollee.css */
+@import url(../css/enrollee.css);
+
+/* education.css */
+@import url(../css/education.css);
+
+/* schedule.css */
+@import url(../css/schedule.css);
+
+/* contacts.css */
+@import url(../css/contacts.css);
+
+/* footer.css */
+@import url(../css/footer.css);
+
+/* media.css */
+@import url(../css/media.css);
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-family: "Roboto";
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
